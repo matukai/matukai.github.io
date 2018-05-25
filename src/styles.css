@@ -2,4 +2,20 @@ body {
   margin: 0;
   padding: 0;
   background-color: lightblue;
+  font-family: sans-serif;
+}
+.homeImage {
+  text-align: center;
+}
+.homeIntro {
+  text-align: center;
+}
+.homeVideo {
+  text-align: center;
+}
+.navBar {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
 }
