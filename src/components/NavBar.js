@@ -9,9 +9,9 @@ export default () => {
     </link>
 
     <div class="topnav" id="myTopnav">
-      <a href="/">HOME</a>
-      <a href="/about">ABOUT</a>
-      <a href="/contact">CONTACT</a>
+      <Link to="/">HOME</Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to="/contact">CONTACT</Link>
     </div>
 
 
