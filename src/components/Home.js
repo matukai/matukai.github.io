@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
+import OpenSign from './OpenSign';
 
-
-export default () => {
-  return (
-    <div>
-      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"></link>
-      <div className="homeIntro">
-        <h1 className="nameTitle">Matthew Tanji</h1>
+class Home extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+  
+  render() {
+    return (
+      <div className="home">
+          <OpenSign />
       </div>
-    </div>
-  )
+    )
+  }
 }
+
+export default Home;
